@@ -1,447 +1,1717 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="dark">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Faizan | Portfolio</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Inter', sans-serif;
-    }
-  </style>
-</head>
-<body class="bg-black text-white antialiased" style="background-image: radial-gradient(rgba(255,255,255,0.25) 1px, transparent 1px); background-size: 15px 15px;">
-  <!-- Hero Section -->
-  <main class="max-w-5xl mx-auto py-20 px-6">
-    <section class="space-y-4">
-      <h2 class="text-4xl sm:text-6xl font-bold text-center">Hi, I'm Faizan 👋</h2>
-      <p class="text-lg max-w-xl text-center mx-auto">Aspiring Software Developer | Tech Enthusiast | I love building things and solving real problems.</p>
-    </section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohammed Faizan | Backend & AI Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --font-display: "Syne", sans-serif;
+        --font-body: "DM Sans", sans-serif;
+      }
 
-    <!-- About Section -->
-<!-- About Section -->
-<section id="about" class="mt-10 space-y-6 max-w-4xl mx-auto px-4">
-  <h2 class="text-2xl font-bold">About</h2>
+      * {
+        box-sizing: border-box;
+      }
 
-  <p class="text-gray-200 leading-relaxed text-justify">
-    I’m passionate about building reliable, scalable backend systems that power seamless and intelligent applications. 
-    With a strong foundation in 
-    <span class="bg-white/10 px-1.5 py-0.5 rounded-md text-white font-semibold">Python</span>, 
-    I specialize in designing and developing 
-    <span class="bg-white/10 px-1.5 py-0.5 rounded-md text-white font-semibold">RESTful APIs</span> 
-    and backend architectures using 
-    <span class="bg-white/10 px-1.5 py-0.5 rounded-md text-white font-semibold">FastAPI</span> 
-    and 
-    <span class="bg-white/10 px-1.5 py-0.5 rounded-md text-white font-semibold">Django</span>, 
-    supported by 
-    <span class="bg-white/10 px-1.5 py-0.5 rounded-md text-white font-semibold">SQLAlchemy</span> 
-    and 
-    <span class="bg-white/10 px-1.5 py-0.5 rounded-md text-white font-semibold">Django ORM</span> 
-    for clean, efficient data handling. My experience includes working with databases such as 
-    <span class="bg-white/10 px-1.5 py-0.5 rounded-md text-white font-semibold">PostgreSQL</span>, 
-    <span class="bg-white/10 px-1.5 py-0.5 rounded-md text-white font-semibold">MySQL</span>, 
-    <span class="bg-white/10 px-1.5 py-0.5 rounded-md text-white font-semibold">SQLite</span>, 
-    and 
-    <span class="bg-white/10 px-1.5 py-0.5 rounded-md text-white font-semibold">MongoDB</span>, 
-    and deploying production-ready applications through 
-    <span class="bg-white/10 px-1.5 py-0.5 rounded-md text-white font-semibold">Docker</span>, 
-    <span class="bg-white/10 px-1.5 py-0.5 rounded-md text-white font-semibold">Render</span>, 
-    <span class="bg-white/10 px-1.5 py-0.5 rounded-md text-white font-semibold">Hugging Face Spaces</span>, 
-    and 
-    <span class="bg-white/10 px-1.5 py-0.5 rounded-md text-white font-semibold">Netlify</span>.
-  </p>
+      html {
+        scroll-behavior: smooth;
+      }
 
-  <p class="text-gray-200 leading-relaxed text-justify">
-    I’m driven by how 
-    <span class="bg-white/10 px-1.5 py-0.5 rounded-md text-white font-semibold">AI</span> 
-    can transform backend systems into smarter, context-aware platforms. 
-    I’ve worked with 
-    <span class="bg-white/10 px-1.5 py-0.5 rounded-md text-white font-semibold">LangChain</span>, 
-    <span class="bg-white/10 px-1.5 py-0.5 rounded-md text-white font-semibold">GPT-based models</span>, 
-    and 
-    <span class="bg-white/10 px-1.5 py-0.5 rounded-md text-white font-semibold">Hugging Face models</span> 
-    using 
-    <span class="bg-white/10 px-1.5 py-0.5 rounded-md text-white font-semibold">Transformers</span>, 
-    <span class="bg-white/10 px-1.5 py-0.5 rounded-md text-white font-semibold">Inference APIs</span>, 
-    and 
-    <span class="bg-white/10 px-1.5 py-0.5 rounded-md text-white font-semibold">embedding models</span>, 
-    along with 
-    <span class="bg-white/10 px-1.5 py-0.5 rounded-md text-white font-semibold">FAISS</span> 
-    for vector-based retrieval. My experience with 
-    <span class="bg-white/10 px-1.5 py-0.5 rounded-md text-white font-semibold">Retrieval-Augmented Generation (RAG)</span> 
-    has strengthened my ability to blend backend logic with real-time intelligence. 
-    Driven by curiosity, I’m always exploring new 
-    <span class="bg-white/10 px-1.5 py-0.5 rounded-md text-white font-semibold">AI frameworks</span>, 
-    tools, and ideas to build solutions that are smarter, more adaptive, and impactful in the real world.
-  </p>
-</section>
+      body {
+        font-family: var(--font-body);
+        background-color: #080808;
+        color: #e8e8e8;
+        background-image: radial-gradient(
+          rgba(255, 255, 255, 0.09) 1px,
+          transparent 1px
+        );
+        background-size: 20px 20px;
+        overflow-x: hidden;
+      }
 
+      h1,
+      h2,
+      h3,
+      h4 {
+        font-family: var(--font-display);
+      }
 
-    <!-- Skills Section -->
-<section id="skills" class="mt-20 space-y-4">
-  <h2 class="text-2xl font-bold">Skills</h2>
-  <div class="flex flex-wrap gap-2">
+      /* ── Navbar ── */
+      #navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 100;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 2rem;
+        height: 56px;
+        background: rgba(8, 8, 8, 0.75);
+        backdrop-filter: blur(14px);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+        transition: all 0.3s ease;
+      }
+      .nav-logo {
+        font-family: var(--font-display);
+        font-weight: 800;
+        font-size: 1.1rem;
+        letter-spacing: -0.03em;
+        color: #fff;
+        text-decoration: none;
+      }
+      .nav-links {
+        display: flex;
+        gap: 0.25rem;
+        align-items: center;
+      }
+      .nav-links a {
+        font-size: 0.8rem;
+        font-weight: 500;
+        color: #aaa;
+        text-decoration: none;
+        padding: 6px 12px;
+        border-radius: 6px;
+        transition:
+          color 0.2s,
+          background 0.2s;
+        letter-spacing: 0.02em;
+      }
+      .nav-links a:hover {
+        color: #fff;
+        background: rgba(255, 255, 255, 0.07);
+      }
+      .nav-cta {
+        font-size: 0.78rem !important;
+        font-weight: 600 !important;
+        color: #080808 !important;
+        background: #fff !important;
+        padding: 6px 14px !important;
+        border-radius: 6px !important;
+      }
+      .nav-cta:hover {
+        background: #e0e0e0 !important;
+        color: #080808 !important;
+      }
+      /* Hamburger */
+      .hamburger {
+        display: none;
+        flex-direction: column;
+        gap: 5px;
+        cursor: pointer;
+        padding: 4px;
+      }
+      .hamburger span {
+        display: block;
+        width: 22px;
+        height: 2px;
+        background: #fff;
+        border-radius: 2px;
+        transition: all 0.3s;
+      }
+      .mobile-menu {
+        display: none;
+        position: fixed;
+        top: 56px;
+        left: 0;
+        right: 0;
+        background: rgba(8, 8, 8, 0.97);
+        backdrop-filter: blur(14px);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+        padding: 1rem 2rem;
+        z-index: 99;
+        flex-direction: column;
+        gap: 4px;
+      }
+      .mobile-menu.open {
+        display: flex;
+      }
+      .mobile-menu a {
+        font-size: 0.9rem;
+        font-weight: 500;
+        color: #aaa;
+        text-decoration: none;
+        padding: 10px 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        transition: color 0.2s;
+      }
+      .mobile-menu a:hover {
+        color: #fff;
+      }
 
-    <!-- 🧱 Core Backend Development -->
-    <span class="px-3 py-1 bg-white text-black border border-gray-300 rounded-md text-xs font-bold leading-none">Python</span>
-    <span class="px-3 py-1 bg-white text-black border border-gray-300 rounded-md text-xs font-bold leading-none">FastAPI</span>
-    <span class="px-3 py-1 bg-white text-black border border-gray-300 rounded-md text-xs font-bold leading-none">Django</span>
-    <span class="px-3 py-1 bg-white text-black border border-gray-300 rounded-md text-xs font-bold leading-none">RESTful API Development</span>
-    <span class="px-3 py-1 bg-white text-black border border-gray-300 rounded-md text-xs font-bold leading-none">SQLAlchemy</span>
-    <span class="px-3 py-1 bg-white text-black border border-gray-300 rounded-md text-xs font-bold leading-none">PostgreSQL</span>
-    <span class="px-3 py-1 bg-white text-black border border-gray-300 rounded-md text-xs font-bold leading-none">MySQL</span>
-    <span class="px-3 py-1 bg-white text-black border border-gray-300 rounded-md text-xs font-bold leading-none">SQLite</span>
-    <span class="px-3 py-1 bg-white text-black border border-gray-300 rounded-md text-xs font-bold leading-none">MongoDB</span>
-    <span class="px-3 py-1 bg-white text-black border border-gray-300 rounded-md text-xs font-bold leading-none">AWS S3</span>
+      @media (max-width: 768px) {
+        .nav-links {
+          display: none;
+        }
+        .hamburger {
+          display: flex;
+        }
+      }
 
-    <!-- 🤖 AI & Intelligent System Integration -->
-    <span class="px-3 py-1 bg-white text-black border border-gray-300 rounded-md text-xs font-bold leading-none">LangChain</span>
-    <span class="px-3 py-1 bg-white text-black border border-gray-300 rounded-md text-xs font-bold leading-none">GPT-based Models</span>
-    <span class="px-3 py-1 bg-white text-black border border-gray-300 rounded-md text-xs font-bold leading-none">Hugging Face Transformers</span>
-    <span class="px-3 py-1 bg-white text-black border border-gray-300 rounded-md text-xs font-bold leading-none">Inference APIs</span>
-    <span class="px-3 py-1 bg-white text-black border border-gray-300 rounded-md text-xs font-bold leading-none">Sentence Transformers (Embeddings)</span>
-    <span class="px-3 py-1 bg-white text-black border border-gray-300 rounded-md text-xs font-bold leading-none">FAISS (Vector Database)</span>
-    <span class="px-3 py-1 bg-white text-black border border-gray-300 rounded-md text-xs font-bold leading-none">Retrieval-Augmented Generation (RAG)</span>
+      /* ── Fade-in on scroll ── */
+      .reveal {
+        opacity: 0;
+        transform: translateY(24px);
+        transition:
+          opacity 0.6s ease,
+          transform 0.6s ease;
+      }
+      .reveal.visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
 
-    <!-- ⚙️ Backend Architecture & Deployment -->
-    <span class="px-3 py-1 bg-white text-black border border-gray-300 rounded-md text-xs font-bold leading-none">Docker</span>
-    <span class="px-3 py-1 bg-white text-black border border-gray-300 rounded-md text-xs font-bold leading-none">Render</span>
-    <span class="px-3 py-1 bg-white text-black border border-gray-300 rounded-md text-xs font-bold leading-none">Hugging Face Spaces</span>
-    <span class="px-3 py-1 bg-white text-black border border-gray-300 rounded-md text-xs font-bold leading-none">Netlify</span>
-    <span class="px-3 py-1 bg-white text-black border border-gray-300 rounded-md text-xs font-bold leading-none">Gunicorn</span>
-    <span class="px-3 py-1 bg-white text-black border border-gray-300 rounded-md text-xs font-bold leading-none">Uvicorn</span>
+      /* ── Hero ── */
+      .hero-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: rgba(255, 255, 255, 0.06);
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        border-radius: 99px;
+        padding: 5px 14px;
+        font-size: 0.75rem;
+        font-weight: 500;
+        color: #b0f0c0;
+        margin-bottom: 1.5rem;
+        letter-spacing: 0.03em;
+      }
+      .hero-badge .dot {
+        width: 7px;
+        height: 7px;
+        background: #4ade80;
+        border-radius: 50%;
+        animation: pulse-dot 2s infinite;
+      }
+      @keyframes pulse-dot {
+        0%,
+        100% {
+          opacity: 1;
+          transform: scale(1);
+        }
+        50% {
+          opacity: 0.5;
+          transform: scale(0.7);
+        }
+      }
+      .hero-title {
+        font-size: clamp(2.8rem, 8vw, 5.5rem);
+        font-weight: 800;
+        line-height: 1.05;
+        letter-spacing: -0.04em;
+        background: linear-gradient(135deg, #fff 0%, #888 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+      .hero-sub {
+        font-size: 1.05rem;
+        color: #888;
+        max-width: 480px;
+        line-height: 1.7;
+        font-weight: 400;
+      }
+      .hero-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 1.5rem;
+      }
+      .hero-tag {
+        font-size: 0.72rem;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        padding: 4px 12px;
+        border-radius: 99px;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        color: #bbb;
+        background: rgba(255, 255, 255, 0.04);
+      }
+      .hero-actions {
+        display: flex;
+        gap: 12px;
+        margin-top: 2rem;
+        flex-wrap: wrap;
+      }
+      .btn-primary {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: #fff;
+        color: #080808;
+        font-family: var(--font-display);
+        font-size: 0.85rem;
+        font-weight: 700;
+        padding: 10px 22px;
+        border-radius: 8px;
+        text-decoration: none;
+        transition:
+          background 0.2s,
+          transform 0.15s;
+      }
+      .btn-primary:hover {
+        background: #ddd;
+        transform: translateY(-1px);
+      }
+      .btn-ghost {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: transparent;
+        color: #ccc;
+        font-family: var(--font-display);
+        font-size: 0.85rem;
+        font-weight: 600;
+        padding: 10px 22px;
+        border-radius: 8px;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        text-decoration: none;
+        transition:
+          border-color 0.2s,
+          color 0.2s,
+          transform 0.15s;
+      }
+      .btn-ghost:hover {
+        border-color: rgba(255, 255, 255, 0.4);
+        color: #fff;
+        transform: translateY(-1px);
+      }
 
-    <!-- 🧰 Supporting Tools & Frameworks -->
-    <span class="px-3 py-1 bg-white text-black border border-gray-300 rounded-md text-xs font-bold leading-none">Pydantic</span>
-    <span class="px-3 py-1 bg-white text-black border border-gray-300 rounded-md text-xs font-bold leading-none">AJAX</span>
-    <span class="px-3 py-1 bg-white text-black border border-gray-300 rounded-md text-xs font-bold leading-none">JavaScript</span>
-    <span class="px-3 py-1 bg-white text-black border border-gray-300 rounded-md text-xs font-bold leading-none">HTML</span>
-    <span class="px-3 py-1 bg-white text-black border border-gray-300 rounded-md text-xs font-bold leading-none">CSS</span>
-    <span class="px-3 py-1 bg-white text-black border border-gray-300 rounded-md text-xs font-bold leading-none">Git</span>
-    <span class="px-3 py-1 bg-white text-black border border-gray-300 rounded-md text-xs font-bold leading-none">GitHub</span>
-    <span class="px-3 py-1 bg-white text-black border border-gray-300 rounded-md text-xs font-bold leading-none">Postman</span>
-    
+      /* ── Section headings ── */
+      .section-label {
+        display: inline-block;
+        font-size: 1.25rem;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: #666;
+        margin-bottom: 0.5rem;
+      }
+      .section-heading {
+        font-size: 1.9rem;
+        font-weight: 800;
+        letter-spacing: -0.03em;
+        color: #f0f0f0;
+        margin-bottom: 1.5rem;
+      }
 
-  </div>
-</section>
+      /* ── About ── */
+      .about-highlight {
+        background: rgba(255, 255, 255, 0.07);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        padding: 2px 8px;
+        border-radius: 5px;
+        font-weight: 600;
+        color: #fff;
+      }
 
+      /* ── Skills ── */
+      .skill-group-label {
+        font-size: 0.68rem;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #555;
+        margin-bottom: 0.6rem;
+        margin-top: 1.2rem;
+      }
+      .skill-pill {
+        display: inline-block;
+        padding: 5px 12px;
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 6px;
+        font-size: 0.75rem;
+        font-weight: 600;
+        color: #ccc;
+        transition:
+          background 0.2s,
+          border-color 0.2s,
+          color 0.2s;
+      }
+      .skill-pill:hover {
+        background: rgba(255, 255, 255, 0.12);
+        border-color: rgba(255, 255, 255, 0.25);
+        color: #fff;
+      }
 
-    <!-- Work Experience Section -->
-<section id="experience" class="mt-20 space-y-6">
-  <h2 class="text-2xl font-bold">Work Experience</h2>
-  <div class="space-y-4">
-    <!-- Experience Card -->
-    <div class="flex justify-between items-center border border-gray-700 rounded-lg p-4 bg-black">
-      <div class="flex items-center gap-4">
-        <img src="images/vault of codes.png" alt="Vault of Codes" class="w-10 h-10 rounded-full">
-        <div>
-          <h3 class="font-bold">Vault of Codes</h3>
-          <p class="text-sm text-gray-300">Web Developer Intern</p>
+      /* ── Experience & Education cards ── */
+      .exp-card {
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 12px;
+        padding: 1.25rem 1.4rem;
+        background: rgba(255, 255, 255, 0.02);
+        transition:
+          border-color 0.2s,
+          background 0.2s;
+      }
+      .exp-card:hover {
+        border-color: rgba(255, 255, 255, 0.18);
+        background: rgba(255, 255, 255, 0.04);
+      }
+      .exp-logo {
+        width: 40px;
+        height: 40px;
+        border-radius: 8px;
+        object-fit: cover;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        flex-shrink: 0;
+      }
+      .exp-bullet {
+        font-size: 0.82rem;
+        color: #aaa;
+        line-height: 1.65;
+        padding-left: 1rem;
+        position: relative;
+      }
+      .exp-bullet::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0.55em;
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background: #555;
+      }
+      .exp-highlight {
+        color: #fff;
+        font-weight: 600;
+      }
+
+      /* ── Project cards ── */
+      .proj-card {
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 14px;
+        overflow: hidden;
+        background: rgba(255, 255, 255, 0.02);
+        transition:
+          border-color 0.25s,
+          transform 0.25s,
+          background 0.25s;
+      }
+      .proj-card:hover {
+        border-color: rgba(255, 255, 255, 0.2);
+        transform: translateY(-4px);
+        background: rgba(255, 255, 255, 0.04);
+      }
+      .proj-img {
+        width: 100%;
+        height: 210px;
+        object-fit: cover;
+        display: block;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      }
+      .proj-body {
+        padding: 1.2rem 1.3rem;
+      }
+      .proj-title {
+        font-family: var(--font-display);
+        font-size: 1rem;
+        font-weight: 700;
+        color: #f0f0f0;
+        margin-bottom: 2px;
+      }
+      .proj-date {
+        font-size: 0.75rem;
+        color: #555;
+        margin-bottom: 0.6rem;
+      }
+      .proj-desc {
+        font-size: 0.82rem;
+        color: #999;
+        line-height: 1.7;
+      }
+      .proj-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        padding: 2px 10px;
+        border-radius: 99px;
+        font-size: 0.68rem;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+      }
+      .badge-professional {
+        background: rgba(250, 204, 21, 0.12);
+        border: 1px solid rgba(250, 204, 21, 0.25);
+        color: #fbbf24;
+      }
+      .badge-ongoing {
+        background: rgba(96, 165, 250, 0.12);
+        border: 1px solid rgba(96, 165, 250, 0.25);
+        color: #60a5fa;
+      }
+      .proj-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        margin-top: 0.9rem;
+      }
+      .proj-tag {
+        font-size: 0.68rem;
+        font-weight: 700;
+        padding: 3px 9px;
+        border-radius: 5px;
+        background: rgba(255, 255, 255, 0.07);
+        color: #aaa;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+      }
+      .proj-actions {
+        display: flex;
+        gap: 8px;
+        margin-top: 1rem;
+      }
+      .proj-btn {
+        font-size: 0.73rem;
+        font-weight: 700;
+        padding: 5px 14px;
+        border-radius: 6px;
+        text-decoration: none;
+        transition: all 0.18s;
+      }
+      .proj-btn-live {
+        background: #fff;
+        color: #080808;
+      }
+      .proj-btn-live:hover {
+        background: #ddd;
+      }
+      .proj-btn-gh {
+        background: transparent;
+        color: #ccc;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+      }
+      .proj-btn-gh:hover {
+        border-color: rgba(255, 255, 255, 0.4);
+        color: #fff;
+      }
+
+      /* ── OCR "no-github" placeholder visual ── */
+      .proj-img-placeholder {
+        width: 100%;
+        height: 210px;
+        background: linear-gradient(
+          135deg,
+          #0f0f0f 0%,
+          #1a1a1a 50%,
+          #0f0f0f 100%
+        );
+        border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+      }
+      .proj-img-placeholder::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image:
+          repeating-linear-gradient(
+            0deg,
+            transparent,
+            transparent 19px,
+            rgba(255, 255, 255, 0.03) 19px,
+            rgba(255, 255, 255, 0.03) 20px
+          ),
+          repeating-linear-gradient(
+            90deg,
+            transparent,
+            transparent 19px,
+            rgba(255, 255, 255, 0.03) 19px,
+            rgba(255, 255, 255, 0.03) 20px
+          );
+      }
+      .placeholder-icon {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+      }
+      .placeholder-icon svg {
+        width: 48px;
+        height: 48px;
+        opacity: 0.4;
+      }
+      .placeholder-icon p {
+        font-size: 0.72rem;
+        color: #555;
+        margin-top: 8px;
+        font-weight: 600;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+      }
+
+      /* ── MCP placeholder ── */
+      .mcp-placeholder {
+        background: linear-gradient(
+          135deg,
+          #080b14 0%,
+          #0d1829 50%,
+          #080b14 100%
+        );
+      }
+
+      /* ── Certifications ── */
+      .cert-card {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 10px;
+        padding: 1rem 1.2rem;
+        background: rgba(255, 255, 255, 0.02);
+        text-decoration: none;
+        transition:
+          border-color 0.2s,
+          background 0.2s;
+      }
+      .cert-card:hover {
+        border-color: rgba(255, 255, 255, 0.2);
+        background: rgba(255, 255, 255, 0.05);
+      }
+      .cert-logo {
+        width: 38px;
+        height: 38px;
+        border-radius: 8px;
+        object-fit: contain;
+        background: #fff;
+        padding: 4px;
+        flex-shrink: 0;
+      }
+      .cert-title {
+        font-family: var(--font-display);
+        font-size: 0.88rem;
+        font-weight: 700;
+        color: #e0e0e0;
+      }
+      .cert-issuer {
+        font-size: 0.75rem;
+        color: #666;
+        margin-top: 1px;
+      }
+      .cert-link {
+        font-size: 0.75rem;
+        color: #60a5fa;
+        white-space: nowrap;
+        flex-shrink: 0;
+      }
+
+      /* ── Contact ── */
+      .contact-card {
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 16px;
+        padding: 2.5rem;
+        background: rgba(255, 255, 255, 0.02);
+        text-align: center;
+      }
+      .contact-email {
+        font-family: var(--font-display);
+        font-size: 1.6rem;
+        font-weight: 800;
+        color: #fff;
+        text-decoration: none;
+        letter-spacing: -0.02em;
+        display: inline-block;
+        margin: 1rem 0;
+        transition: color 0.2s;
+      }
+      .contact-email:hover {
+        color: #aaa;
+      }
+      .social-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 7px;
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: #777;
+        text-decoration: none;
+        padding: 8px 16px;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 8px;
+        transition:
+          color 0.2s,
+          border-color 0.2s,
+          background 0.2s;
+      }
+      .social-link:hover {
+        color: #fff;
+        border-color: rgba(255, 255, 255, 0.2);
+        background: rgba(255, 255, 255, 0.04);
+      }
+
+      /* ── Floating Social Bar ── */
+      #floating-bar {
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 50;
+        background: rgba(18, 18, 18, 0.85);
+        backdrop-filter: blur(16px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 99px;
+        display: flex;
+        align-items: center;
+        padding: 8px 16px;
+        gap: 4px;
+      }
+      #floating-bar a {
+        color: #888;
+        padding: 6px 8px;
+        border-radius: 8px;
+        transition:
+          color 0.2s,
+          background 0.2s;
+        display: flex;
+        align-items: center;
+      }
+      #floating-bar a:hover {
+        color: #fff;
+        background: rgba(255, 255, 255, 0.08);
+      }
+      #floating-bar .divider {
+        width: 1px;
+        height: 20px;
+        background: rgba(255, 255, 255, 0.1);
+        margin: 0 4px;
+      }
+
+      /* ── Stat badges ── */
+      .stat-badge {
+        display: inline-block;
+        background: rgba(74, 222, 128, 0.1);
+        border: 1px solid rgba(74, 222, 128, 0.2);
+        color: #4ade80;
+        font-size: 0.72rem;
+        font-weight: 700;
+        padding: 2px 9px;
+        border-radius: 99px;
+      }
+      .stat-badge-blue {
+        background: rgba(96, 165, 250, 0.1);
+        border-color: rgba(96, 165, 250, 0.2);
+        color: #60a5fa;
+      }
+
+      /* ── Footer ── */
+      footer {
+        text-align: center;
+        padding: 3rem 1rem 6rem;
+        font-size: 0.75rem;
+        color: #444;
+      }
+
+      /* ── Divider ── */
+      .section-divider {
+        border: none;
+        border-top: 1px solid rgba(255, 255, 255, 0.05);
+        margin: 0;
+      }
+
+      /* ── Responsive ── */
+      @media (max-width: 640px) {
+        .hero-title {
+          font-size: 2.5rem;
+        }
+        .section-heading {
+          font-size: 1.5rem;
+        }
+        .contact-email {
+          font-size: 1.2rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ══════════════ NAVBAR ══════════════ -->
+    <nav id="navbar">
+      <a href="#" class="nav-logo">MF.</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certs</a>
+        <a href="#contact">Contact</a>
+        <a href="assets/Mohammed_Faizan_SDE.pdf" target="_blank" class="nav-cta"
+          >Resume ↗</a
+        >
+      </div>
+      <div class="hamburger" onclick="toggleMenu()" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about" onclick="closeMenu()">About</a>
+      <a href="#skills" onclick="closeMenu()">Skills</a>
+      <a href="#experience" onclick="closeMenu()">Experience</a>
+      <a href="#projects" onclick="closeMenu()">Projects</a>
+      <a href="#certifications" onclick="closeMenu()">Certifications</a>
+      <a href="#contact" onclick="closeMenu()">Contact</a>
+      <a
+        href="assets/Mohammed_Faizan_SDE.pdf"
+        target="_blank"
+        onclick="closeMenu()"
+        >Resume ↗</a
+      >
+    </div>
+
+    <!-- ══════════════ HERO ══════════════ -->
+    <main class="max-w-5xl mx-auto pt-32 pb-20 px-6">
+      <section class="reveal">
+        <div class="hero-badge">
+          <span class="dot"></span>
+          Open to backend &amp; AI developer roles
         </div>
-      </div>
-      <span class="text-sm text-gray-400">Oct 2023 – Nov 2023</span>
-    </div>
-  </div>
-</section>
-
-<!-- Education Section -->
-<section id="education" class="mt-20 space-y-6">
-  <h2 class="text-2xl font-bold">Education</h2>
-  <div class="flex justify-between items-center border border-gray-700 rounded-lg p-4 bg-black">
-    <div class="flex items-center gap-4">
-      <img src="images/nhce logo.jpeg" alt="College Logo" class="w-10 h-10 rounded-full">
-      <div>
-        <h3 class="font-bold">New Horizon Collge of Engineering, Bengaluru</h3>
-        <p class="text-sm text-gray-300">Bachelor of Electronics and Communication Engineering</p>
-      </div>
-    </div>
-    <span class="text-sm text-gray-400">2021 – 2025</span>
-  </div>
-</section>
-
-
-<!-- Projects Section -->
-<section id="projects" class="mt-20 space-y-8 text-center">
-  <span class="inline-block px-4 py-1 bg-white text-black font-bold rounded-full text-xs">My Projects</span>
-  <h2 class="text-4xl sm:text-5xl font-extrabold">Check out my latest work</h2>
-  <p class="text-gray-400 max-w-2xl mx-auto">
-    I've worked on a variety of projects, from simple websites to complex web applications. Here are a few of my favorites.
-  </p>
-
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
-
-    <!-- Card 1: SnapBuy -->
-    <div class="border border-gray-700 rounded-lg overflow-hidden bg-black backdrop-blur hover:scale-105 transition-transform">
-      <img src="images/SnapBuy Preview.jpg" alt="SnapBuy Screenshot" class="w-full h-60 object-cover">
-      <div class="p-4 space-y-2">
-        <h3 class="text-xl font-bold text-white">SnapBuy - Django Ecommerce</h3>
-        <p class="text-sm text-gray-300">March 2024</p>
-        <p class="text-gray-200 text-sm">
-          SnapBuy is a responsive web application built with Django and PostgreSQL, featuring product listings, Razorpay payment integration, cart management, user authentication, and an admin dashboard. 
-          It is developed using Django 5.2, HTML/CSS, AJAX + jQuery for the frontend, and deployed on Render with Gunicorn and Whitenoise for efficient static file handling and production performance.
+        <h1 class="hero-title">Hi, I'm<br />Mohammed<br />Faizan.</h1>
+        <p class="hero-sub" style="margin-top: 1.2rem">
+          Backend &amp; AI Developer building production-grade APIs, RAG
+          pipelines, and LLM-powered systems with Python, Django, FastAPI, and
+          LangChain.
         </p>
-        <div class="flex flex-wrap gap-2 pt-2">
-          <span class="px-2 py-0.5 bg-white/10 text-white text-xs font-bold rounded-md">Django</span>
-          <span class="px-2 py-0.5 bg-white/10 text-white text-xs font-bold rounded-md">PostgreSQL</span>
-          <span class="px-2 py-0.5 bg-white/10 text-white text-xs font-bold rounded-md">Razorpay API</span>
-          <span class="px-2 py-0.5 bg-white/10 text-white text-xs font-bold rounded-md">AJAX</span>
-          <span class="px-2 py-0.5 bg-white/10 text-white text-xs font-bold rounded-md">Render.com</span>
+        <div class="hero-tags">
+          <span class="hero-tag">Python</span>
+          <span class="hero-tag">FastAPI</span>
+          <span class="hero-tag">Django</span>
+          <span class="hero-tag">LangChain</span>
+          <span class="hero-tag">RAG</span>
+          <span class="hero-tag">PostgreSQL</span>
+          <span class="hero-tag">Vertex AI</span>
+          <span class="hero-tag">Gemini</span>
         </div>
-        <div class="pt-3 flex gap-3">
-          <a href="https://snapbuy-ecommerce-oqbb.onrender.com" target="_blank"
-             class="inline-block bg-white text-black font-bold text-xs px-3 py-1 rounded hover:bg-gray-200 transition">Live</a>
+        <div class="hero-actions">
+          <a href="#projects" class="btn-primary">View my work ↓</a>
+          <a href="#contact" class="btn-ghost">Get in touch</a>
         </div>
-      </div>
-    </div>
+      </section>
 
-    <!-- Card 2: SmartParkX -->
-    <div class="border border-gray-700 rounded-lg overflow-hidden bg-black backdrop-blur hover:scale-105 transition-transform">
-      <img src="images/SmartParkx Preview.jpg" alt="SmartParkX Screenshot" class="w-full h-60 object-cover">
-      <div class="p-4 space-y-2">
-        <h3 class="text-xl font-bold text-white">SmartParkX</h3>
-        <p class="text-sm text-gray-300">Feb 2023</p>
-        <p class="text-gray-200 text-sm">
-          SmartParkX is a FastAPI and PostgreSQL-based smart parking system with a secure REST API, real-time slot booking, and user auth. 
-          It uses an HC-SR04 ultrasonic sensor and Arduino to detect slot occupancy, updates status live, and sends email confirmations. 
-          Built for IoT and web integration with Pydantic validation and SQLAlchemy ORM.
+      <!-- ══════════════ ABOUT ══════════════ -->
+      <section id="about" class="mt-28 reveal">
+        <span class="section-label">About me</span>
+        <h2 class="section-heading">Backend engineer who loves AI</h2>
+        <div
+          style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem"
+          class="about-grid"
+        >
+          <p
+            style="
+              font-size: 0.9rem;
+              color: #999;
+              line-height: 1.8;
+              grid-column: 1/-1;
+            "
+          >
+            I'm passionate about building reliable, scalable backend systems
+            that power seamless and intelligent applications. With a strong
+            foundation in <span class="about-highlight">Python</span>, I
+            specialize in designing
+            <span class="about-highlight">RESTful APIs</span> and backend
+            architectures using <span class="about-highlight">FastAPI</span> and
+            <span class="about-highlight">Django</span>, supported by
+            <span class="about-highlight">SQLAlchemy</span> and
+            <span class="about-highlight">Django ORM</span>
+            for clean, efficient data handling. My experience spans databases
+            like
+            <span class="about-highlight">PostgreSQL</span>,
+            <span class="about-highlight">SQLite</span>, and
+            <span class="about-highlight">MongoDB</span>, and production
+            deployments via <span class="about-highlight">Docker</span>,
+            <span class="about-highlight">Render</span>,
+            <span class="about-highlight">Hugging Face Spaces</span>, and
+            <span class="about-highlight">Netlify</span>.
+          </p>
+          <p
+            style="
+              font-size: 0.9rem;
+              color: #999;
+              line-height: 1.8;
+              grid-column: 1/-1;
+            "
+          >
+            I'm driven by how <span class="about-highlight">AI</span> can
+            transform backend systems into smarter, context-aware platforms.
+            I've worked with <span class="about-highlight">LangChain</span>,
+            <span class="about-highlight">Google Gemini</span>, and
+            <span class="about-highlight">Hugging Face</span>
+            models using Transformers, Inference APIs, and embedding models,
+            along with
+            <span class="about-highlight">FAISS</span> for vector-based
+            retrieval. My experience with
+            <span class="about-highlight"
+              >Retrieval-Augmented Generation (RAG)</span
+            >,
+            <span class="about-highlight">Model Context Protocol (MCP)</span>
+            and <span class="about-highlight">Google Vertex AI</span> has
+            strengthened my ability to blend backend logic with real-time
+            intelligence.
+          </p>
+        </div>
+      </section>
+
+      <hr class="section-divider" style="margin-top: 4rem" />
+
+      <!-- ══════════════ SKILLS ══════════════ -->
+      <section id="skills" class="mt-16 reveal">
+        <span class="section-label">Technical skills</span>
+        <h2 class="section-heading">What I work with</h2>
+
+        <div class="skill-group-label">Core languages</div>
+        <div style="display: flex; flex-wrap: wrap; gap: 8px">
+          <span class="skill-pill">Python</span>
+          <span class="skill-pill">SQL</span>
+          <span class="skill-pill">JavaScript</span>
+          <span class="skill-pill">HTML</span>
+          <span class="skill-pill">CSS</span>
+        </div>
+
+        <div class="skill-group-label">Backend frameworks &amp; APIs</div>
+        <div style="display: flex; flex-wrap: wrap; gap: 8px">
+          <span class="skill-pill">FastAPI</span>
+          <span class="skill-pill">Django</span>
+          <span class="skill-pill">REST API Development</span>
+          <span class="skill-pill">SQLAlchemy</span>
+          <span class="skill-pill">Pydantic</span>
+          <span class="skill-pill">Async Programming</span>
+          <span class="skill-pill">Gunicorn</span>
+          <span class="skill-pill">Uvicorn</span>
+        </div>
+
+        <div class="skill-group-label">AI &amp; LLM</div>
+        <div style="display: flex; flex-wrap: wrap; gap: 8px">
+          <span class="skill-pill">LangChain</span>
+          <span class="skill-pill">Google Vertex AI</span>
+          <span class="skill-pill">Gemini 2.5 Flash</span>
+          <span class="skill-pill">Gemini 2.0 Flash</span>
+          <span class="skill-pill">Hugging Face Transformers</span>
+          <span class="skill-pill">Mistral-7B</span>
+          <span class="skill-pill">Llama 3 (Ollama)</span>
+          <span class="skill-pill">RAG Architecture</span>
+          <span class="skill-pill">Sentence Transformers</span>
+          <span class="skill-pill">FAISS (Vector DB)</span>
+          <span class="skill-pill">Model Context Protocol (MCP (basics))</span>
+          <span class="skill-pill">Inference APIs</span>
+        </div>
+
+        <div class="skill-group-label">Databases &amp; cloud</div>
+        <div style="display: flex; flex-wrap: wrap; gap: 8px">
+          <span class="skill-pill">PostgreSQL</span>
+          <span class="skill-pill">MySQL</span>
+          <span class="skill-pill">SQLite</span>
+          <span class="skill-pill">MongoDB</span>
+          <span class="skill-pill">AWS S3</span>
+        </div>
+
+        <div class="skill-group-label">DevOps &amp; deployment</div>
+        <div style="display: flex; flex-wrap: wrap; gap: 8px">
+          <span class="skill-pill">Docker</span>
+          <span class="skill-pill">Render</span>
+          <span class="skill-pill">Hugging Face Spaces</span>
+          <span class="skill-pill">Netlify</span>
+        </div>
+
+        <div class="skill-group-label">Tools</div>
+        <div style="display: flex; flex-wrap: wrap; gap: 8px">
+          <span class="skill-pill">Git</span>
+          <span class="skill-pill">GitHub</span>
+          <span class="skill-pill">Postman</span>
+          <span class="skill-pill">AJAX</span>
+          <span class="skill-pill">Selenium (Basics)</span>
+        </div>
+      </section>
+
+      <hr class="section-divider" style="margin-top: 4rem" />
+
+      <!-- ══════════════ EXPERIENCE ══════════════ -->
+      <section id="experience" class="mt-16 reveal">
+        <span class="section-label">Work experience</span>
+        <h2 class="section-heading">Where I've worked</h2>
+        <div style="display: flex; flex-direction: column; gap: 1rem">
+          <!-- EffiGO -->
+          <div class="exp-card">
+            <div
+              style="
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                gap: 1rem;
+                flex-wrap: wrap;
+              "
+            >
+              <div style="display: flex; align-items: center; gap: 12px">
+                <img
+                  src="images/effigo-logo.png"
+                  alt="EffiGO Global"
+                  class="exp-logo"
+                />
+                <div>
+                  <div
+                    style="
+                      font-family: var(--font-display);
+                      font-weight: 700;
+                      font-size: 0.95rem;
+                      color: #f0f0f0;
+                    "
+                  >
+                    EffiGO Global
+                  </div>
+                  <div style="font-size: 0.78rem; color: #777; margin-top: 1px">
+                    AI Developer Intern · Bengaluru
+                  </div>
+                </div>
+              </div>
+              <span
+                style="
+                  font-size: 0.75rem;
+                  color: #555;
+                  white-space: nowrap;
+                  flex-shrink: 0;
+                "
+                >Dec 2025 – Mar 2026</span
+              >
+            </div>
+            <div
+              style="
+                margin-top: 1rem;
+                display: flex;
+                flex-direction: column;
+                gap: 7px;
+              "
+            >
+              <p class="exp-bullet">
+                Built AI-powered invoice OCR pipelines using
+                <span class="exp-highlight">FastAPI</span> and
+                <span class="exp-highlight">Google Vertex AI (Gemini)</span>,
+                extracting
+                <span class="exp-highlight">140+ structured fields</span> per
+                invoice into validated JSON for direct ERP ingestion.
+              </p>
+              <p class="exp-bullet">
+                Designed prompt-driven LLM workflows with a
+                <span class="exp-highlight"
+                  >dual-pipeline asyncio architecture</span
+                >
+                — routing header extraction to Gemini 2.5 Flash and line items
+                to Gemini 2.0 Flash in parallel.
+              </p>
+              <p class="exp-bullet">
+                Reduced pipeline latency by
+                <span class="exp-highlight">~70%</span> (31s → 8–10s) through
+                asynchronous processing, concurrent model execution, and
+                targeted prompt engineering.
+              </p>
+            </div>
+          </div>
+
+          <!-- Vault of Codes -->
+          <div class="exp-card">
+            <div
+              style="
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                gap: 1rem;
+                flex-wrap: wrap;
+              "
+            >
+              <div style="display: flex; align-items: center; gap: 12px">
+                <img
+                  src="images/vault of codes.png"
+                  alt="Vault of Codes"
+                  class="exp-logo"
+                />
+                <div>
+                  <div
+                    style="
+                      font-family: var(--font-display);
+                      font-weight: 700;
+                      font-size: 0.95rem;
+                      color: #f0f0f0;
+                    "
+                  >
+                    Vault of Codes
+                  </div>
+                  <div style="font-size: 0.78rem; color: #777; margin-top: 1px">
+                    Backend Developer Intern · Bengaluru
+                  </div>
+                </div>
+              </div>
+              <span
+                style="
+                  font-size: 0.75rem;
+                  color: #555;
+                  white-space: nowrap;
+                  flex-shrink: 0;
+                "
+                >Jul 2023 – Dec 2023</span
+              >
+            </div>
+            <div
+              style="
+                margin-top: 1rem;
+                display: flex;
+                flex-direction: column;
+                gap: 7px;
+              "
+            >
+              <p class="exp-bullet">
+                Developed a
+                <span class="exp-highlight"
+                  >Django-based e-commerce backend</span
+                >
+                with PostgreSQL, covering product management, cart, and full
+                order workflows.
+              </p>
+              <p class="exp-bullet">
+                Implemented secure authentication flows — email verification,
+                password reset, session management — and
+                <span class="exp-highlight">Razorpay payment integration</span>.
+              </p>
+              <p class="exp-bullet">
+                Built and deployed
+                <span class="exp-highlight">RESTful services</span> with
+                optimized database queries for efficient data handling and
+                production scalability.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="section-divider" style="margin-top: 4rem" />
+
+      <!-- ══════════════ EDUCATION ══════════════ -->
+      <section id="education" class="mt-16 reveal">
+        <span class="section-label">Education</span>
+        <h2 class="section-heading">Academic background</h2>
+        <div class="exp-card">
+          <div
+            style="
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              gap: 1rem;
+              flex-wrap: wrap;
+            "
+          >
+            <div style="display: flex; align-items: center; gap: 12px">
+              <img src="images/nhce logo.jpeg" alt="NHCE" class="exp-logo" />
+              <div>
+                <div
+                  style="
+                    font-family: var(--font-display);
+                    font-weight: 700;
+                    font-size: 0.95rem;
+                    color: #f0f0f0;
+                  "
+                >
+                  New Horizon College of Engineering, Bengaluru
+                </div>
+                <div style="font-size: 0.78rem; color: #777; margin-top: 1px">
+                  Bachelor of Engineering · Electronics &amp; Communication
+                </div>
+              </div>
+            </div>
+            <span
+              style="
+                font-size: 0.75rem;
+                color: #555;
+                white-space: nowrap;
+                flex-shrink: 0;
+              "
+              >2021 – 2025</span
+            >
+          </div>
+        </div>
+      </section>
+
+      <hr class="section-divider" style="margin-top: 4rem" />
+
+      <!-- ══════════════ PROJECTS ══════════════ -->
+      <section id="projects" class="mt-16 reveal">
+        <span class="section-label">Projects</span>
+        <h2 class="section-heading">Things I've built</h2>
+        <p
+          style="
+            font-size: 0.88rem;
+            color: #666;
+            margin-top: -0.5rem;
+            margin-bottom: 2rem;
+          "
+        >
+          A mix of professional work, personal projects, and ongoing
+          experiments.
         </p>
-        <div class="flex flex-wrap gap-2 pt-4">
-          <span class="px-2 py-0.5 bg-white/10 text-white text-xs font-bold rounded-md">FastAPI</span>
-          <span class="px-2 py-0.5 bg-white/10 text-white text-xs font-bold rounded-md">SQLAlchemy</span>
-          <span class="px-2 py-0.5 bg-white/10 text-white text-xs font-bold rounded-md">REST API</span>
-          <span class="px-2 py-0.5 bg-white/10 text-white text-xs font-bold rounded-md">Pydantic</span>
+
+        <div
+          style="
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.2rem;
+          "
+        >
+          <!-- ── OCR: Professional project, no GitHub ── -->
+          <div class="proj-card">
+            <div class="proj-img-placeholder">
+              <div class="placeholder-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#888"
+                  stroke-width="1.5"
+                >
+                  <rect x="3" y="3" width="18" height="18" rx="2" />
+                  <path d="M7 8h10M7 12h10M7 16h6" />
+                  <circle cx="18" cy="16" r="3" fill="#222" stroke="#888" />
+                  <path d="M21 19l-1.5-1.5" stroke-linecap="round" />
+                </svg>
+                <p>Professional work</p>
+              </div>
+            </div>
+            <div class="proj-body">
+              <div
+                style="
+                  display: flex;
+                  align-items: center;
+                  gap: 8px;
+                  margin-bottom: 6px;
+                "
+              >
+                <h3 class="proj-title" style="margin: 0">
+                  AI-Powered Invoice OCR
+                </h3>
+                <span class="proj-badge badge-professional"> Professional</span>
+              </div>
+              <p class="proj-date">
+                Dec 2025 – Mar 2026 · EffiGO Global Internship
+              </p>
+              <p class="proj-desc">
+                Production-grade invoice OCR microservice using
+                <strong style="color: #ccc">FastAPI</strong> and
+                <strong style="color: #ccc"
+                  >Google Vertex AI (Gemini 2.0 Flash | Gemini 2.5
+                  Flash)</strong
+                >, extracting
+                <strong style="color: #ccc">140+ structured fields</strong> from
+                multi-format B2B invoices into JSON for ERP ingestion. Built a
+                dual-pipeline architecture using concurrent asyncio calls,
+                cutting response latency by
+                <span class="stat-badge" style="font-size: 0.68rem"
+                  >~70% · 31s → 8s</span
+                >. Also engineered Gemini-powered
+                <strong style="color: #ccc">signature detection</strong> with
+                bounding box coordinates and base64 image export via PyMuPDF.
+              </p>
+              <div class="proj-tags">
+                <span class="proj-tag">FastAPI</span>
+                <span class="proj-tag">Google Vertex AI</span>
+                <span class="proj-tag">Gemini 2.0 Flash</span>
+                <span class="proj-tag">Gemini 2.5 Flash</span>
+                <span class="proj-tag">asyncio</span>
+                <span class="proj-tag">PyMuPDF</span>
+                <span class="proj-tag">Pydantic</span>
+              </div>
+              <div class="proj-actions">
+                <span
+                  style="font-size: 0.72rem; color: #555; align-self: center"
+                  >Proprietary · source not public</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- ── AskMyDoc ── -->
+          <div class="proj-card">
+            <img src="images/askmydoc.jpeg" alt="AskMyDoc" class="proj-img" />
+            <div class="proj-body">
+              <h3 class="proj-title">AskMyDoc – AI Document Q&amp;A</h3>
+              <p class="proj-date">Sep 2024 · Updated 2025</p>
+              <p class="proj-desc">
+                Full <strong style="color: #ccc">RAG pipeline</strong> with
+                semantic chunking (RecursiveCharacterTextSplitter 800/150),
+                FAISS IndexFlatL2 (k=4), and LangChain RetrievalQA. Upgraded to
+                <strong style="color: #ccc">Gemini 2.5 Flash</strong> as LLM
+                backend and
+                <strong style="color: #ccc">gemini-embedding-001</strong> for
+                semantic embeddings. Deployed on Hugging Face Spaces with
+                Streamlit UI supporting PDF, TXT, and MD sources.
+              </p>
+              <div class="proj-tags">
+                <span class="proj-tag">LangChain</span>
+                <span class="proj-tag">FAISS</span>
+                <span class="proj-tag">Gemini 2.5 Flash</span>
+                <span class="proj-tag">Sentence Transformers</span>
+                <span class="proj-tag">Streamlit</span>
+                <span class="proj-tag">Hugging Face Spaces</span>
+              </div>
+              <div class="proj-actions">
+                <a
+                  href="https://huggingface.co/spaces/faizan20/askmydoc"
+                  target="_blank"
+                  class="proj-btn proj-btn-live"
+                  >Live ↗</a
+                >
+                <a
+                  href="https://github.com/MohammedFaizan20/askmydoc"
+                  target="_blank"
+                  class="proj-btn proj-btn-gh"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- ── SnapBuy ── -->
+          <div class="proj-card">
+            <img
+              src="images/SnapBuy Preview.jpg"
+              alt="SnapBuy"
+              class="proj-img"
+            />
+            <div class="proj-body">
+              <h3 class="proj-title">SnapBuy – Django E-commerce</h3>
+              <p class="proj-date">Mar 2024</p>
+              <p class="proj-desc">
+                Modular Django e-commerce platform on
+                <strong style="color: #ccc">PostgreSQL</strong> with
+                SEO-friendly slug routing, session-based AJAX cart with
+                Decimal-accurate pricing, and
+                <strong style="color: #ccc">Razorpay payment integration</strong
+                >. Deployed on Render with Gunicorn + Uvicorn workers and
+                Whitenoise for static files. Features secure auth flows — email
+                verification, password reset, session management.
+              </p>
+              <div class="proj-tags">
+                <span class="proj-tag">Django</span>
+                <span class="proj-tag">PostgreSQL</span>
+                <span class="proj-tag">Razorpay API</span>
+                <span class="proj-tag">AJAX</span>
+                <span class="proj-tag">Render.com</span>
+                <span class="proj-tag">Gunicorn</span>
+              </div>
+              <div class="proj-actions">
+                <a
+                  href="https://snapbuy-ecommerce-oqbb.onrender.com"
+                  target="_blank"
+                  class="proj-btn proj-btn-live"
+                  >Live ↗</a
+                >
+                <a
+                  href="https://github.com/MohammedFaizan20"
+                  target="_blank"
+                  class="proj-btn proj-btn-gh"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- ── SmartParkX ── -->
+          <div class="proj-card">
+            <img
+              src="images/SmartParkx Preview.jpg"
+              alt="SmartParkX"
+              class="proj-img"
+            />
+            <div class="proj-body">
+              <h3 class="proj-title">SmartParkX – IoT Parking System</h3>
+              <p class="proj-date">Feb 2024</p>
+              <p class="proj-desc">
+                FastAPI and PostgreSQL-based smart parking system with a secure
+                REST API, real-time slot booking, and user auth. Integrates an
+                HC-SR04 ultrasonic sensor via Arduino for live occupancy
+                detection, sends email confirmations, and updates slot status in
+                real time. Built for IoT-web integration with
+                <strong style="color: #ccc">Pydantic validation</strong> and
+                <strong style="color: #ccc">SQLAlchemy ORM</strong>.
+              </p>
+              <div class="proj-tags">
+                <span class="proj-tag">FastAPI</span>
+                <span class="proj-tag">SQLAlchemy</span>
+                <span class="proj-tag">PostgreSQL</span>
+                <span class="proj-tag">Arduino / IoT</span>
+                <span class="proj-tag">Pydantic</span>
+              </div>
+              <div class="proj-actions">
+                <a
+                  href="https://smartparkx.lovable.app/"
+                  target="_blank"
+                  class="proj-btn proj-btn-live"
+                  >Live ↗</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- ── MCP Project ── -->
+          <div class="proj-card">
+            <div class="proj-img-placeholder mcp-placeholder">
+              <div class="placeholder-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#4a9eff"
+                  stroke-width="1.5"
+                  style="opacity: 0.5"
+                >
+                  <circle cx="12" cy="12" r="3" />
+                  <path d="M12 2v3M12 19v3M2 12h3M19 12h3" />
+                  <path
+                    d="M5.636 5.636l2.121 2.121M16.243 16.243l2.121 2.121M5.636 18.364l2.121-2.121M16.243 7.757l2.121-2.121"
+                  />
+                </svg>
+                <p>In development</p>
+              </div>
+            </div>
+            <div class="proj-body">
+              <div
+                style="
+                  display: flex;
+                  align-items: center;
+                  gap: 8px;
+                  margin-bottom: 6px;
+                "
+              >
+                <h3 class="proj-title" style="margin: 0">ZomatoLens</h3>
+                <span class="proj-badge badge-ongoing">Ongoing</span>
+              </div>
+              <p class="proj-date">2025 · Active development</p>
+              <p class="proj-desc">
+                Built a natural language analytics engine for 12,132 Bengaluru
+                restaurants using Anthropic's
+                <strong style="color: #ccc">Model Context Protocol (MCP)</strong
+                >. Implements all three MCP primitives -
+                <strong style="color: #ccc"
+                  >Tools, Resources, and Prompts</strong
+                >
+                to let <strong style="color: #ccc">Claude </strong> query a live
+                <strong style="color: #ccc">PostgreSQL </strong> database
+                without writing
+                <strong style="color: #ccc">SQL.</strong> Features a SQL safety
+                validator that blocks destructive queries in agentic workflows.
+              </p>
+              <div class="proj-tags">
+                <span class="proj-tag">MCP</span>
+                <span class="proj-tag">Python</span>
+                <span class="proj-tag">LangChain</span>
+                <span class="proj-tag">FastMCP</span>
+                <span class="proj-tag">LLM Integration</span>
+              </div>
+              <div class="proj-actions">
+                <a
+                  href="https://github.com/MohammedFaizan20"
+                  target="_blank"
+                  class="proj-btn proj-btn-gh"
+                  >GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- ── Power BI ── -->
+          <div class="proj-card">
+            <img
+              src="images/exec-dashboard (1).png"
+              alt="Power BI Dashboard"
+              class="proj-img"
+            />
+            <div class="proj-body">
+              <h3 class="proj-title">AdventureWorks Sales Dashboard</h3>
+              <p class="proj-date">May 2025 · Power BI</p>
+              <p class="proj-desc">
+                End-to-end interactive BI dashboard with Power Query ETL,
+                advanced <strong style="color: #ccc">DAX</strong>, and dynamic
+                visuals. Covers multi-year sales trends, customer segmentation,
+                product performance with pricing simulations, return tracking,
+                and regional distribution. Features drill-throughs, forecasts,
+                gauges, and global KPI views.
+              </p>
+              <div class="proj-tags">
+                <span class="proj-tag">Power BI Desktop</span>
+                <span class="proj-tag">Power Query</span>
+                <span class="proj-tag">DAX</span>
+                <span class="proj-tag">Data Modelling</span>
+              </div>
+              <div class="proj-actions">
+                <a
+                  href="https://github.com/MohammedFaizan20/adventureworks-powerbi-dashboard"
+                  target="_blank"
+                  class="proj-btn proj-btn-gh"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="pt-3">
-          <a href="https://smartparkx.lovable.app/" target="_blank"
-             class="inline-block bg-white text-black font-bold text-xs px-3 py-1 rounded hover:bg-gray-200 transition">Live</a>
+      </section>
+
+      <hr class="section-divider" style="margin-top: 4rem" />
+
+      <!-- ══════════════ CERTIFICATIONS ══════════════ -->
+      <section id="certifications" class="mt-16 reveal">
+        <span class="section-label">Certifications</span>
+        <h2 class="section-heading">Credentials</h2>
+        <div
+          style="
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            max-width: 700px;
+          "
+        >
+          <a
+            href="https://www.hackerrank.com/certificates/76c291ca7fd0"
+            target="_blank"
+            class="cert-card"
+          >
+            <div style="display: flex; align-items: center; gap: 12px">
+              <img
+                src="images/hrank1.png"
+                alt="HackerRank"
+                class="cert-logo"
+                style="background: #1a1a1a; padding: 0"
+              />
+              <div>
+                <div class="cert-title">SQL (Basic)</div>
+                <div class="cert-issuer">HackerRank</div>
+              </div>
+            </div>
+            <span class="cert-link">View ↗</span>
+          </a>
+
+          <a
+            href="https://www.hackerrank.com/certificates/7092bebab585"
+            target="_blank"
+            class="cert-card"
+          >
+            <div style="display: flex; align-items: center; gap: 12px">
+              <img
+                src="images/hrank1.png"
+                alt="HackerRank"
+                class="cert-logo"
+                style="background: #1a1a1a; padding: 0"
+              />
+              <div>
+                <div class="cert-title">SQL (Intermediate)</div>
+                <div class="cert-issuer">HackerRank</div>
+              </div>
+            </div>
+            <span class="cert-link">View ↗</span>
+          </a>
+
+          <a
+            href="https://www.udemy.com/certificate/UC-4731f0bd-3cfd-45c4-b13f-4fc3d26ad3a1/"
+            target="_blank"
+            class="cert-card"
+          >
+            <div style="display: flex; align-items: center; gap: 12px">
+              <img
+                src="https://about.udemy.com/wp-content/themes/wp-about-v4/assets/images/udemy-logo.svg"
+                alt="Udemy"
+                class="cert-logo"
+              />
+
+              <div>
+                <div class="cert-title">
+                  Microsoft Power BI Desktop for Business Intelligence
+                </div>
+                <div class="cert-issuer">Udemy</div>
+              </div>
+            </div>
+            <span class="cert-link">View ↗</span>
+          </a>
+
+          <a
+            href="https://www.udemy.com/certificate/UC-2ac93845-3ddf-4874-9857-5bfddaa94855/"
+            target="_blank"
+            class="cert-card"
+          >
+            <div style="display: flex; align-items: center; gap: 12px">
+              <img
+                src="https://about.udemy.com/wp-content/themes/wp-about-v4/assets/images/udemy-logo.svg"
+                alt="Udemy"
+                class="cert-logo"
+              />
+
+              <div>
+                <div class="cert-title">
+                  Snowflake – The Complete Masterclass
+                </div>
+                <div class="cert-issuer">Udemy</div>
+              </div>
+            </div>
+            <span class="cert-link">View ↗</span>
+          </a>
         </div>
-      </div>
+      </section>
+
+      <hr class="section-divider" style="margin-top: 4rem" />
+
+      <!-- ══════════════ CONTACT ══════════════ -->
+      <section id="contact" class="mt-16 mb-8 reveal">
+        <span class="section-label">Get in touch</span>
+        <h2 class="section-heading">Let's work together</h2>
+        <div class="contact-card">
+          <p style="font-size: 0.85rem; color: #666; margin-bottom: 0.25rem">
+            Currently open to backend &amp; AI developer roles · Bengaluru or
+            Remote
+          </p>
+          <a href="mailto:faizansnp@gmail.com" class="contact-email"
+            >faizansnp@gmail.com</a
+          >
+          <div
+            style="
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: center;
+              gap: 10px;
+              margin-top: 1.5rem;
+            "
+          >
+            <a
+              href="https://github.com/MohammedFaizan20"
+              target="_blank"
+              class="social-link"
+            >
+              <svg
+                width="15"
+                height="15"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.387.6.113.82-.263.82-.583 0-.288-.01-1.05-.015-2.06-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.757-1.333-1.757-1.09-.746.083-.73.083-.73 1.205.085 1.84 1.24 1.84 1.24 1.07 1.834 2.81 1.304 3.495.997.107-.776.42-1.304.763-1.604-2.665-.3-5.466-1.334-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.125-.303-.535-1.522.115-3.176 0 0 1.005-.322 3.3 1.23a11.52 11.52 0 013-.405c1.02.005 2.045.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.655 1.654.245 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.43.372.81 1.102.81 2.222 0 1.606-.015 2.898-.015 3.293 0 .32.21.702.825.58C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z"
+                />
+              </svg>
+              GitHub
+            </a>
+            <a
+              href="https://www.linkedin.com/in/mohammedfaizan20/"
+              target="_blank"
+              class="social-link"
+            >
+              <svg
+                width="15"
+                height="15"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.269c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.783 1.75-1.75 1.75zm13.5 11.269h-3v-5.604c0-3.368-4-3.115-4 0v5.604h-3v-10h3v1.539c1.396-2.586 7-2.777 7 2.476v5.985z"
+                />
+              </svg>
+              LinkedIn
+            </a>
+            <a
+              href="assets/Mohammed_Faizan_SDE.pdf"
+              target="_blank"
+              class="social-link"
+            >
+              <svg
+                width="15"
+                height="15"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"
+                />
+              </svg>
+              Download Resume
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ══════════════ FOOTER ══════════════ -->
+    <footer>
+      <p>Designed &amp; built by Mohammed Faizan · 2025</p>
+    </footer>
+
+    <!-- ══════════════ FLOATING BAR ══════════════ -->
+    <div id="floating-bar">
+      <a
+        href="https://github.com/MohammedFaizan20"
+        target="_blank"
+        title="GitHub"
+      >
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.387.6.113.82-.263.82-.583 0-.288-.01-1.05-.015-2.06-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.757-1.333-1.757-1.09-.746.083-.73.083-.73 1.205.085 1.84 1.24 1.84 1.24 1.07 1.834 2.81 1.304 3.495.997.107-.776.42-1.304.763-1.604-2.665-.3-5.466-1.334-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.125-.303-.535-1.522.115-3.176 0 0 1.005-.322 3.3 1.23a11.52 11.52 0 013-.405c1.02.005 2.045.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.655 1.654.245 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.43.372.81 1.102.81 2.222 0 1.606-.015 2.898-.015 3.293 0 .32.21.702.825.58C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z"
+          />
+        </svg>
+      </a>
+      <a
+        href="https://www.linkedin.com/in/mohammedfaizan20/"
+        target="_blank"
+        title="LinkedIn"
+      >
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+          <path
+            d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.269c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.783 1.75-1.75 1.75zm13.5 11.269h-3v-5.604c0-3.368-4-3.115-4 0v5.604h-3v-10h3v1.539c1.396-2.586 7-2.777 7 2.476v5.985z"
+          />
+        </svg>
+      </a>
+      <div class="divider"></div>
+      <a href="mailto:faizansnp@gmail.com" title="Email">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+          <path
+            d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+          />
+        </svg>
+      </a>
+      <a href="assets/Mohammed_Faizan_SDE.pdf" target="_blank" title="Resume">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+          <path
+            d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"
+          />
+        </svg>
+      </a>
     </div>
 
-    <!-- Card 3: AskMyDoc -->
-    <div class="border border-gray-700 rounded-lg overflow-hidden bg-black backdrop-blur hover:scale-105 transition-transform">
-      <img src="images/askmydoc.jpeg" alt="AskMyDoc App Preview" class="w-full h-60 object-cover">
-      <div class="p-4 space-y-2">
-        <h3 class="text-xl font-bold text-white">AskMyDoc – AI Document Q&A</h3>
-        <p class="text-sm text-gray-300">September 2024</p>
-        <p class="text-gray-200 text-sm">
-          AskMyDoc is an AI-powered document question-answering application that allows users to upload and query PDFs, text, or markdown files in natural language. 
-          It’s built with a RAG pipeline using LangChain, FAISS, and Hugging Face Inference API to generate precise, context-aware answers powered by Mistral-7B and Sentence Transformers. 
-          The app features a Streamlit interface and is deployed seamlessly on Hugging Face Spaces for live inference.
-        </p>
-        <div class="flex flex-wrap gap-2 pt-2">
-          <span class="px-2 py-0.5 bg-white/10 text-white text-xs font-bold rounded-md">LangChain</span>
-          <span class="px-2 py-0.5 bg-white/10 text-white text-xs font-bold rounded-md">FAISS</span>
-          <span class="px-2 py-0.5 bg-white/10 text-white text-xs font-bold rounded-md">Mistral-7B</span>
-          <span class="px-2 py-0.5 bg-white/10 text-white text-xs font-bold rounded-md">Sentence Transformers</span>
-          <span class="px-2 py-0.5 bg-white/10 text-white text-xs font-bold rounded-md">Streamlit</span>
-          <span class="px-2 py-0.5 bg-white/10 text-white text-xs font-bold rounded-md">Hugging Face Spaces</span>
-        </div>
-        <div class="pt-3 flex gap-3">
-          <a href="https://huggingface.co/spaces/faizan20/askmydoc" target="_blank"
-             class="inline-block bg-white text-black font-bold text-xs px-3 py-1 rounded hover:bg-gray-200 transition">Live</a>
-          <a href="https://github.com/MohammedFaizan20/askmydoc" target="_blank"
-             class="inline-block bg-white/10 text-white font-bold text-xs px-3 py-1 rounded border border-gray-600 hover:bg-white/20 transition">GitHub</a>
-        </div>
-      </div>
-    </div>
+    <script>
+      // ── Mobile menu ──
+      function toggleMenu() {
+        document.getElementById("mobileMenu").classList.toggle("open");
+      }
+      function closeMenu() {
+        document.getElementById("mobileMenu").classList.remove("open");
+      }
 
-    <!-- Card 4: Power BI -->
-    <div class="border border-gray-700 rounded-lg overflow-hidden bg-black backdrop-blur hover:scale-105 transition-transform">
-      <img src="images/exec-dashboard (1).png" alt="PowerBI-Dashboard Screenshot" class="w-full h-60 object-cover">
-      <div class="p-4 space-y-2">
-        <h3 class="text-xl font-bold text-white">AdventureWorks Sales Dashboard – Power BI</h3>
-        <p class="text-sm text-gray-300">May 2025</p>
-        <p class="text-gray-200 text-sm">
-          An interactive dashboard with end-to-end ETL in Power Query, advanced DAX, and dynamic visuals for clear business reporting. 
-          Covers multi-year sales trends, customer growth and segmentation, product performance with pricing simulations, return tracking, and regional sales distribution. 
-          Pages include customer insights, product deep dives, sales maps, and global KPIs – all with slicers, drill-throughs, gauges, forecasts, and top product stats.
-        </p>
-        <div class="flex flex-wrap gap-2 pt-2">
-          <span class="px-2 py-0.5 bg-white/10 text-white text-xs font-bold rounded-md">Power BI Desktop</span>
-          <span class="px-2 py-0.5 bg-white/10 text-white text-xs font-bold rounded-md">Power Query</span>
-          <span class="px-2 py-0.5 bg-white/10 text-white text-xs font-bold rounded-md">DAX</span>
-          <span class="px-2 py-0.5 bg-white/10 text-white text-xs font-bold rounded-md">Data Modelling</span>
-        </div>
-        <div class="pt-3">
-          <a href="https://github.com/MohammedFaizan20/adventureworks-powerbi-dashboard" target="_blank"
-             class="inline-block bg-white text-black font-bold text-xs px-3 py-1 rounded hover:bg-gray-200 transition">GitHub</a>
-        </div>
-      </div>
-    </div>
+      // ── Reveal on scroll ──
+      const reveals = document.querySelectorAll(".reveal");
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((e) => {
+            if (e.isIntersecting) {
+              e.target.classList.add("visible");
+              observer.unobserve(e.target);
+            }
+          });
+        },
+        { threshold: 0.08 },
+      );
+      reveals.forEach((el) => observer.observe(el));
 
-  </div>
-</section>
-
-
-
-<section id="certifications" class="mt-20 space-y-6 text-left">
-  <!-- Heading -->
-  <h2 class="text-2xl font-bold">Certifications</h2>
-
-  <div class="space-y-4">
-
-     <!-- Certificate Card 1 -->
-     <a href="https://www.hackerrank.com/certificates/76c291ca7fd0" target="_blank"
-  class="flex flex-col border border-gray-700 rounded-lg p-4 bg-black hover:bg-white/5 transition duration-200 group max-w-3xl">
-
-  <!-- Row: left logo+text & right link -->
-  <div class="flex justify-between items-center w-full">
-    <div class="flex items-center gap-4">
-      <!-- Logo circle -->
-      <div class="w-10 h-10 rounded-full bg-black flex items-center justify-center">
-        <img src="images/hrank1.png" alt="Logo" class="w-10 h-10 rounded-full">
-      </div>
-      <div>
-        <h3 class="font-bold group-hover:text-blue-400 transition">SQL (Basic)</h3>
-        <p class="text-sm text-gray-300">Issued by HackerRank</p>
-      </div>
-    </div>
-
-    <!-- Right: Link floats to far right -->
-    <span class="text-sm text-blue-400 underline group-hover:text-blue-300 ml-4 whitespace-nowrap">
-      View Certificate
-    </span>
-  </div>
-
-</a>
-
- </div>
-</section>
-
-     <!-- Certificate Card 2 -->
-     <a href="https://www.hackerrank.com/certificates/7092bebab585" target="_blank"
-  class="flex flex-col border border-gray-700 rounded-lg p-4 bg-black hover:bg-white/5 transition duration-200 group max-w-3xl">
-
-  <!-- Row: left logo+text & right link -->
-  <div class="flex justify-between items-center w-full">
-    <div class="flex items-center gap-4">
-      <!-- Logo circle -->
-      <div class="w-10 h-10 rounded-full bg-black flex items-center justify-center">
-        <img src="images/hrank1.png" alt="Logo" class="w-10 h-10 rounded-full">
-      </div>
-      <div>
-        <h3 class="font-bold group-hover:text-blue-400 transition">SQL (Intermediate)</h3>
-        <p class="text-sm text-gray-300">Issued by HackerRank</p>
-      </div>
-    </div>
-
-    <!-- Right: Link floats to far right -->
-    <span class="text-sm text-blue-400 underline group-hover:text-blue-300 ml-4 whitespace-nowrap">
-      View Certificate
-    </span>
-  </div>
-
-</a>
- </div>
-</section>
-
-    <!-- Certificate Card 3 -->
-    <a href="https://www.udemy.com/certificate/UC-4731f0bd-3cfd-45c4-b13f-4fc3d26ad3a1/" target="_blank"
-  class="flex flex-col border border-gray-700 rounded-lg p-4 bg-black hover:bg-white/5 transition duration-200 group max-w-3xl">
-
-  <!-- Row: left logo+text & right link -->
-  <div class="flex justify-between items-center w-full">
-    <div class="flex items-center gap-4">
-      <!-- Logo circle -->
-      <div class="w-10 h-10 rounded-full bg-white flex items-center justify-center">
-        <img src="https://about.udemy.com/wp-content/themes/wp-about-v4/assets/images/udemy-logo.svg" alt="Logo" class="w-10 h-10 rounded-full">
-      </div>
-      <div>
-        <h3 class="font-bold group-hover:text-blue-400 transition">Microsoft Power BI Desktop for Business Intelligence</h3>
-        <p class="text-sm text-gray-300">Issued by Udemy</p>
-      </div>
-    </div>
-
-    <!-- Right: Link floats to far right -->
-    <span class="text-sm text-blue-400 underline group-hover:text-blue-300 ml-4 whitespace-nowrap">
-      View Certificate
-    </span>
-  </div>
-
-</a>
-  </div>
-  
-
-    <!-- Certificate Card 4 -->
-    <a href="https://www.udemy.com/certificate/UC-2ac93845-3ddf-4874-9857-5bfddaa94855/" target="_blank"
-    class="flex flex-col border border-gray-700 rounded-lg p-4 bg-black hover:bg-white/5 transition duration-200 group max-w-3xl">
-  
-    <!-- Row: left logo+text & right link -->
-    <div class="flex justify-between items-center w-full">
-      <div class="flex items-center gap-4">
-        <!-- Logo circle -->
-        <div class="w-10 h-10 rounded-full bg-white flex items-center justify-center">
-          <img src="https://about.udemy.com/wp-content/themes/wp-about-v4/assets/images/udemy-logo.svg" alt="Logo" class="w-10 h-10 rounded-full">
-        </div>
-        <div>
-          <h3 class="font-bold group-hover:text-blue-400 transition">Snowflake</h3>
-          <p class="text-sm text-gray-300">Issued by Udemy</p>
-        </div>
-      </div>
-  
-      <!-- Right: Link floats to far right -->
-      <span class="text-sm text-blue-400 underline group-hover:text-blue-300 ml-4 whitespace-nowrap">
-        View Certificate
-      </span>
-    </div>
-  
-  </a>
-  </div>
-    
-
-
-
-
-   <!-- Floating Center Social Bar -->
-<div class="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 bg-black/60 backdrop-blur-md border border-gray-700 rounded-full flex items-center justify-center px-4 py-2 transition-all duration-300 hover:px-8 hover:scale-105">
-  
-  <!-- GitHub -->
-  <a href="https://github.com/MohammedFaizan20" target="_blank" class="text-white hover:text-blue-400 px-2">
-    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-      <path fill-rule="evenodd" clip-rule="evenodd"
-        d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.387.6.113.82-.263.82-.583 0-.288-.01-1.05-.015-2.06-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.757-1.333-1.757-1.09-.746.083-.73.083-.73 1.205.085 1.84 1.24 1.84 1.24 1.07 1.834 2.81 1.304 3.495.997.107-.776.42-1.304.763-1.604-2.665-.3-5.466-1.334-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.125-.303-.535-1.522.115-3.176 0 0 1.005-.322 3.3 1.23a11.52 11.52 0 0 1 3-.405c1.02.005 2.045.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.655 1.654.245 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.43.372.81 1.102.81 2.222 0 1.606-.015 2.898-.015 3.293 0 .32.21.702.825.58C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z" />
-    </svg>
-  </a>
-
-  <!-- LinkedIn -->
-  <a href="https://www.linkedin.com/in/mohammedfaizan20/" target="_blank" class="text-white hover:text-blue-400 px-2">
-    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-      <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 
-      2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 
-      19h-3v-10h3v10zm-1.5-11.269c-.966 0-1.75-.784-1.75-1.75s.784-1.75 
-      1.75-1.75 1.75.784 1.75 1.75-.783 1.75-1.75 
-      1.75zm13.5 11.269h-3v-5.604c0-3.368-4-3.115-4 
-      0v5.604h-3v-10h3v1.539c1.396-2.586 7-2.777 7 2.476v5.985z"/>
-    </svg>
-  </a>
-
-  <!-- Gmail -->
-  <a href="mailto:faizansnp@gmail.com" class="text-white hover:text-blue-400 px-2">
-    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 512 512">
-      <path d="M502.3 190.8l-192-160A48.05 48.05 0 0 0 272 16H80a48.05 
-      48.05 0 0 0-38.3 14.8l-192 160A48 48 0 0 0 0 224v208a48 48 0 0 
-      0 48 48h416a48 48 0 0 0 48-48V224a48 48 0 0 0-9.7-33.2zM464 
-      432H48V192l208 160 208-160zM256 320L48 160V80h416v80z"/>
-    </svg>
-  </a>
-
-  <!-- Resume -->
-  <!-- Resume -->
-<a href="assets/MohammedFaizan_Backend.pdf" target="_blank" class="text-white hover:text-blue-400 px-2">
-  <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-    <path d="M14 2H6c-1.1 0-2 .9-2 
-    2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 
-    2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 
-    9H13z"/>
-  </svg>
-</a>
-
-</div>
-
-
-
-</body>
+      // ── Stagger hero reveal on load ──
+      document.querySelector(".reveal").classList.add("visible");
+    </script>
+  </body>
 </html>
